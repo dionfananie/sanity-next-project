@@ -1,5 +1,8 @@
 import { SchemaTypeDefinition } from 'sanity'
 
+import banner from './schema/banner'
+import post from './schema/post'
+
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [],
+  types: [post, banner],
 }
