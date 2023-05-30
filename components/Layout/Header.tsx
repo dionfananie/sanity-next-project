@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-// Import react scroll
 import { Link as LinkScroll } from 'react-scroll'
 
 import LogoVPN from '../../public/assets/Logo.svg'
